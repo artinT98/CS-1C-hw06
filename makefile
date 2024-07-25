@@ -4,8 +4,8 @@ LDFLAGS = -std=c++11 -Wall
 
 TARGET = main
 
-SRC = main.cpp
-OBJ = main.o
+SRC = hw06.cpp
+OBJ = hw06.o
 
 all: $(TARGET)
 
