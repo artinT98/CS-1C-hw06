@@ -12,7 +12,7 @@ all: $(TARGET)
 $(TARGET): $(OBJ)
 	$(CXX) $(LDFLAGS) -o $(TARGET) $(OBJ)
 
-hw06.o: main.cpp BankAccount.h CD.h CheckingAccount.h SavingAccount.h
+hw06.o: hw06.cpp BankAccount.h CD.h CheckingAccount.h SavingAccount.h
 	$(CXX) $(CXXFLAGS) -c hw06.cpp
 
 clean:
