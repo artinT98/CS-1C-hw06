@@ -13,7 +13,7 @@ $(TARGET): $(OBJ)
 	$(CXX) $(LDFLAGS) -o $(TARGET) $(OBJ)
 
 hw06.o: main.cpp BankAccount.h CD.h CheckingAccount.h SavingAccount.h
-	$(CXX) $(CXXFLAGS) -c main.cpp
+	$(CXX) $(CXXFLAGS) -c hw06.cpp
 
 clean:
 	rm -f $(TARGET) $(OBJ)
